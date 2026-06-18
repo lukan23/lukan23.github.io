@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: lukan23.github.io/lukan.notes
+  baseUrl: lukan23.github.io
   ignorePatterns:
     - private
     - templates
@@ -143,10 +143,10 @@ plugins:
       position: left
       priority: 50
   - source: github:quartz-community/graph
-    enabled: true
-    layout:
-      position: right
-      priority: 10
+    enabled: false
+    # layout:
+    #   position: right
+    #   priority: 10
   - source: github:quartz-community/search
     enabled: true
     layout:
