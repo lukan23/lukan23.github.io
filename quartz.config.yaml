@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: lukan.github.io
+  baseUrl: lukan23.github.io/lukan.notes
   ignorePatterns:
     - private
     - templates
